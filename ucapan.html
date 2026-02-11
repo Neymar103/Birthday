@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💖 Happy Birthday Beibiii! 🎂</title>
+
+    <!-- 🔗 KODE PENGHUBUNG KE CSS -->
+    <link rel="stylesheet" href="ucapan.css">
+</head>
+<body>
+
+    <div id="emoji-container"></div>
+
+    <div class="bg-circle circle1"></div>
+    <div class="bg-circle circle2"></div>
+    <div class="bg-circle circle3"></div>
+
+    <div class="container">
+        <div class="header-card">
+            <div class="header-content">
+                <div class="birthday-emoji">🎂</div>
+                <h1>Selamat Ulang Tahun Sayangkuuu!!!</h1>
+
+                <div class="emoji-row">
+                    <span class="emoji-bounce">🥳</span>
+                    <span class="emoji-bounce">💖</span>
+                    <span class="emoji-bounce">🎈</span>
+                </div>
+
+                <div class="message-box">
+                    <p class="message">
+                        Hari ini adalah hari spesial karena orang terspesial di hidupku ulang tahun birthday!!🎂
+                        <br>
+                        Semoga panjang umur, sehat selalu, makin cantik, dan makin sayang sama akuuu!😁😘
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="game-card">
+            <h2>🎮 Yuk Main Dulu! 🎯</h2>
+            <p class="game-description">
+                Cocokkin emoji yang sama buat membuka hadiah gift rahasia secret! 💝
+            </p>
+
+            <div class="score-board">
+                <div class="score">
+                    Langkah: <span id="moves">0</span> |
+                    Pasangan: <span id="matches">0/4</span>
+                </div>
+            </div>
+
+            <div class="game-area" id="gameArea"></div>
+
+            <button class="btn-reset" onclick="resetGame()">🔄 Main Lagi</button>
+        </div>
+    </div>
+
+    <div class="popup-overlay hidden" id="surprisePopup">
+        <div class="surprise-card">
+            <button class="close-popup" onclick="closePopup()">✕</button>
+
+            <h2 class="surprise-title">🎁 Hadiah Spesial Untukmu! 💝</h2>
+
+            <div class="love-letter-box">
+                <div class="love-letter">
+                    Selamat ya sayangkuu!!! 🎂<br><br>
+                    
+                    Kamu yang selalu bisa bikin aku senyum, ketawa, bahkan kadang kesel (tapi tetep sayang kok 😂).<br><br>
+                    
+                    Di hari spesial ini, aku cuma mau bilang:<br>
+                    Terima kasih udah jadi bagian dari hidupku. ❤️<br>
+                    Terima kasih udah sabar sama kelakuanku yang kadang nyebelin. 😅<br><br>
+                    
+                    Semoga di tahun ini, semua impianmu tercapai,<br>
+                    Semoga makin kita sayang, dan makin bahagia bareng! 💑<br><br>
+
+                    Kamu tahu nggak? Ikan ikan apa yang ga bisa pergi?<br>
+                    I can wanna stay with you forever, cuakss 🤭💕<br><br>
+
+                    Alay yaa??<br>
+                    Maaf yaa aku emang alayy😔<br>
+                    Alaypyuu🤭💕
+                    I Love You Today, Tomorrow, and Forever! 🌙✨<br><br>
+                    
+                    <strong>Happy Birthday, Beiibiii! 🎉💖</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 🔗 KODE PENGHUBUNG KE JAVASCRIPT -->
+    <script src="ucapan.js"></script>
+</body>
+</html>
